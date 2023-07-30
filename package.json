@@ -1,14 +1,14 @@
 {
-  "name": "json-server-videos",
+  "name": "json-server-vercel",
   "description": "demo data in memory videos api with json-server",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "api/server.js",
   "scripts": {
-    "start": "json-server --watch db_videos.json --no-cors true --port 9000"
+    "start": "node api/server.js"
   },
   "dependencies": {
     "json-server": "^0.17.0"
   },
   "keywords": [],
-  "author": ""
+  "author": "Syed Mohmmad Yasir"
 }
